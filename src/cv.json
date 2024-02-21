@@ -1,0 +1,242 @@
+{
+    "basics": {
+      "name": "Carlos David Ballesteros Torres",
+      "label": "Front-End developer autodidacta con +1 año de experiencia",
+      "image": "/me.webp",
+      "email": "carlos.david1806@gmail.com",
+      "phone": "+52 7712660983",
+      "url": "https://portfoliocdavidv.netlify.app",
+      "summary": "Soy un entusiasta del desarrollo web con una sólida experiencia en liderazgo de proyectos que han mejorado notablemente la eficiencia y control de procesos. Mi enfoque principal se concentra en la creación de sistemas integrales, utilizando tecnologías como PHP, JavaScript, CSS con Tailwind, y HTML, junto con frameworks como Astro y aprendiendo React.",
+      "location": {
+        "address": "Mineral de la Reforma",
+        "postalCode": "42185",
+        "city": "Hidalgo",
+        "countryCode": "ES",
+        "region": "México"
+      },
+      "profiles": [
+        {
+          "network": "Instagram",
+          "username": "david.1806",
+          "url": "https://www.instagram.com/david.1806/"
+        },
+        {
+          "network": "GitHub",
+          "username": "CDavidDv",
+          "url": "https://github.com/CDavidDv"
+        },
+        {
+          "network": "LinkedIn",
+          "username": "carlos-david-bt",
+          "url": "https://www.linkedin.com/in/carlos-david-bt/"
+        }
+      ]
+    },
+    "work": [
+      {
+        "name": "Aplicación Java",
+        "position": "Software Developer",
+        "url": "https://github.com/CDavidDv/laboratories",
+        "startDate": "2023-12-01",
+        "endDate": "2024-01-20",
+        "summary": "Una empresa dedicada a los laboratorios clínicos me solicitó un programa de escritorio, el cual desarrollé utilizando Java con NetBeans y una base de datos en SQLite, debido a los requisitos del proyecto.",
+        "highlights": [
+          "Programa embebido"
+        ]
+      },
+      {
+        "name": "Figra-Gas",
+        "position": "Full-Stack Developer",
+        "url": "https://figragas.com",
+        "startDate": "2023-03-01",
+        "endDate": null,
+        "summary": "Desarrollé la página web para esta empresa utilizando HTML, CSS (Bootstrap) y JavaScript vanilla. El diseño fue que fuera simple pero que mostrara claramente el precio e imágenes de la empresa y que fuera responsive.",
+        "highlights": [
+          "Llamativo", "Intuitivo", "Responsive"
+        ]
+      },
+      {
+        "name": "Laboratorios tlatlauquitepec",
+        "position": "Front-End Developer",
+        "startDate": "2023-11-01",
+        "endDate": null,
+        "summary": "Elaboré su página web utilizando HTML, CSS (TailwindCSS), JavaScript vanilla, con el framework Astro.build. El objetivo era crear un diseño empresarial y formal, utilizando sus colores institucionales.",
+        "highlights": [
+          "Transformación digital", "Responsive", "Intuitivo"
+        ]
+      },
+      {
+        "name": "MACE",
+        "position": "Full-Stack Developer",
+        "startDate": "2022-01-01",
+        "endDate": null,
+        "summary": "Desarrollé un emprendimiento con unos compañeros de la universidad enfocado en el desarrollo de páginas web, aplicaciones web y de escritorio. Para su creación, utilizamos Astro, HTML, CSS (Tailwind), y JavaScript.",
+        "highlights": [
+          "Emprendimiento", "Colaboración", "Diversas tecnologías"
+        ]
+      }
+    ],
+    "volunteer": [{
+      "organization": "Organization",
+      "position": "Volunteer",
+      "url": "https://organization.com/",
+      "startDate": "2012-01-01",
+      "endDate": "2013-01-01",
+      "summary": "Description…",
+      "highlights": [
+        "Awarded 'Volunteer of the Month'"
+      ]
+    }],
+    "education": [{
+      "institution": "Universidad Autónoma del Estado de Hidalgo",
+      "url": "https://www.uaeh.edu.mx/",
+      "area": "Ciencias Computacionales",
+      "studyType": "Licenciatura",
+      "startDate": "2019-06-01",
+      "endDate": "2023-06-01",
+      "score": "8.49",
+      "courses": [
+        "JavaScript Código Facilito"
+      ]
+    }],
+    "awards": [{
+      "title": "Award",
+      "date": "2014-11-01",
+      "awarder": "Company",
+      "summary": "There is no spoon."
+    }],
+    "certificates": [{
+      "name": "Certificate",
+      "date": "2021-11-07",
+      "issuer": "Company",
+      "url": "https://certificate.com"
+    }],
+    "publications": [{
+      "name": "Publication",
+      "publisher": "Company",
+      "releaseDate": "2014-10-01",
+      "url": "https://publication.com",
+      "summary": "Description…"
+    }],
+    "skills": [
+      {
+        "name": "HTML",
+        "level": "Advance",
+        "keywords": [
+          "Web development", "Frontend"
+        ]
+      },
+      {
+        "name": "CSS",
+        "level": "Advance",
+        "keywords": [
+          "Web development", "Frontend", "Diseño Responsive"
+        ]
+      },
+      {
+        "name": "JavaScript",
+        "level": "Advance",
+        "keywords": [
+          "Web development", "Frontend", "Backend", "Fullstack"
+        ]
+      },
+      {
+        "name": "Tailwind",
+        "level": "Mid",
+        "keywords": [
+          "Web development", "Frontend", "CSS Framework", "Diseño Responsive"
+        ]
+      },
+      {
+        "name": "MySQL",
+        "level": "Mid",
+        "keywords": [
+          "Bases de Datos", "SQL", "Database", "Backend"
+        ]
+      },
+      {
+        "name": "Git",
+        "level": "Mid",
+        "keywords": [
+          "Version control", "Colaboración", "Source code"
+        ]
+      },
+      {
+        "name": "GitHub",
+        "level": "Advanced",
+        "keywords": [
+          "Version control", "Collaboration", "Source code", "Git"
+        ]
+      },
+      {
+        "name": "React",
+        "level": "Entry level",
+        "keywords": [
+          "Web development", "Frontend", "JavaScript Library", "UI"
+        ]
+      }
+    ],
+    "languages": [
+      {
+        "language": "Español",
+        "fluency": "Lengua Materna"
+      },
+      {
+        "language": "Inglés",
+        "fluency": "Intermedio"
+      }
+    ],
+    "interests": [
+        {
+            "name": "Tecnología",
+            "keywords": [
+                "Al día",
+                "Cualquier tema"
+            ]
+        },
+        {
+            "name": "VideoJuegos",
+            "keywords": [
+                "Al día",
+                "Cualquier tema",
+                "Lol"
+            ]
+        }
+    ],
+    "references": [{
+      "name": "Jane Doe",
+      "reference": "Reference…"
+    }],
+    "projects": [
+      {
+        "name": "Portfolio",
+        "isActive": true,
+        "description": "Quise utilizar tecnologías para practicar y crear un portafolio que demostrara mis conocimientos, y lo desplegué en Netlify.",
+        "highlights": [
+          "Autodidacta",
+          "In progress"
+        ],
+        "url": "https://portfoliocdavidv.netlify.app/"
+      },
+      {
+        "name": "Connect 4",
+        "isActive": true,
+        "description": "En mi proceso de aprendizaje de nuevas tecnologías, realicé un proyecto de Connect 4 utilizando los recursos de React y los 'hooks', específicamente useState y lo deploye en Netlify.",
+        "highlights": [
+          "Autodidacta",
+          "React"
+        ],
+        "url": "https://wonderful-lolly-448912.netlify.app/"
+      },
+      {
+        "name": "Curriculum Vitae",
+        "isActive": true,
+        "description": "Quise poner en practica un poco de mis conocimientos para mostrar e imprimir un cv, me inspire en el que mostro el creador midudev.",
+        "highlights": [
+          "Autodidacta",
+          "React"
+        ],
+        "url": null
+      }
+    ]
+  }

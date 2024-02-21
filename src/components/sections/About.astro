@@ -1,0 +1,20 @@
+---
+import Section from '@/components/Section.astro'
+
+import { basics } from '@cv'
+
+const { summary } = basics
+---
+<Section tittle="Sobre mí">
+    <p>{summary}</p>
+</Section>
+
+<style>
+    p{
+        color: #666;
+        font-size: 0.9rem;
+        line-height: 1.5;
+        margin: 0;
+        text-wrap: pretty;
+    }
+</style>
