@@ -17,6 +17,11 @@ const SOCIAL_ICONS: Record<string, any> ={
     LinkedIn,
     Instagram
 }
+
+const linkedInfo = profiles.find(({ network }) => network === "LinkedIn")
+const linkedUrl = linkedInfo?.url
+
+const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ")
 ---
 <Section >
     <div class="container">
@@ -26,7 +31,10 @@ const SOCIAL_ICONS: Record<string, any> ={
             <span>
                 <WorldIcon /> {city}, {region}
             </span>
-            <footer>
+            <footer class="print">
+                {printInfo}
+              </footer>
+            <footer class="no-print">
                 {email && (
                     <a href={`mailto:${email}`}
                         title={`Enviar un correo electronico a ${name} al correo ${email}`}
@@ -114,6 +122,8 @@ const SOCIAL_ICONS: Record<string, any> ={
     }
 
     footer {
+        color: #555;
+        font-size: 0.75rem;
         display: flex;
         gap: 6px;
         margin-top: 8px;
