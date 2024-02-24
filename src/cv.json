@@ -214,7 +214,7 @@
         "description": "Quise utilizar tecnologías para practicar y crear un portafolio que demostrara mis conocimientos, y lo desplegué en Netlify.",
         "highlights": [
           "Autodidacta",
-          "In progress"
+          "Desarrollando"
         ],
         "url": "https://portfoliocdavidv.netlify.app/"
       },
@@ -233,8 +233,7 @@
         "isActive": true,
         "description": "Quise poner en practica un poco de mis conocimientos para mostrar e imprimir un cv, me inspire en el que mostro el creador midudev.",
         "highlights": [
-          "Autodidacta",
-          "React"
+          "Astro"
         ],
         "url": "https://cv-carlos-david-bt.netlify.app/"
       }
