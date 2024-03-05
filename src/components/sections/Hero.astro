@@ -9,7 +9,7 @@ import WorldIcon from '@/icons/WorldIcon.astro'
  
 import { basics } from '@cv'
 
-const { name, label, location, image, summary, email, phone, profiles } = basics
+const { name, label, location, image, summary, email, phone, profiles, url } = basics
 const { city, region } = location
 
 const SOCIAL_ICONS: Record<string, any> ={
@@ -21,7 +21,7 @@ const SOCIAL_ICONS: Record<string, any> ={
 const linkedInfo = profiles.find(({ network }) => network === "LinkedIn")
 const linkedUrl = linkedInfo?.url
 
-const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ")
+const printInfo = [email, phone, linkedUrl, url].filter(Boolean).join(" • ")
 ---
 <Section >
     <div class="container">
@@ -51,6 +51,15 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ")
                         rel="noopener noreferrer"
                     >
                         <Phone />
+                    </a>
+                )}
+                {url && (
+                    <a href={`tel:${phone}`}
+                        title={`Llamar por teléfono a ${name} al número ${phone}`}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <WorldIcon />
                     </a>
                 )}
                 {

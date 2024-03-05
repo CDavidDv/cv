@@ -1,7 +1,7 @@
 {
     "basics": {
       "name": "Carlos David Ballesteros Torres",
-      "label": "Front-End developer autodidacta con +1 año de experiencia",
+      "label": "Front-End developer autodidacta con solida experiencia en el area",
       "image": "/me.webp",
       "email": "carlos.david1806@gmail.com",
       "phone": "+52 7712660983",
@@ -71,6 +71,16 @@
         "startDate": "2022-01-01",
         "endDate": null,
         "summary": "Desarrollé un emprendimiento con unos compañeros de la universidad enfocado en el desarrollo de páginas web, aplicaciones web y de escritorio. Para su creación, utilizamos Astro, HTML, CSS (Tailwind), y JavaScript.",
+        "highlights": [
+          "Emprendimiento", "Colaboración", "Diversas tecnologías"
+        ]
+      },
+      {
+        "name": "Dependencia de gobierno",
+        "position": "Full-Stack Developer",
+        "startDate": "2021-01-01",
+        "endDate": "2022-01-01",
+        "summary": "Desarrolle un sistema organizado y eficiente para la gestión de información de solicitudes, mediante la creación de una base de datos robusta y la implementación de una interfaz de usuario intuitiva y adaptativa. Esta solución se basa en cuatro pilares tecnológicos fundamentales. 1. Uso de MySQL para la Base de Datos. 2. Implementación del Patrón MVC (Modelo-Vista-Controlador). 3. Desarrollo de la Interfaz de Usuario con Tecnologías Web Modernas. 4. Pruebas y Depuración con XAMPP.",
         "highlights": [
           "Emprendimiento", "Colaboración", "Diversas tecnologías"
         ]
@@ -162,7 +172,28 @@
         ]
       },
       {
+        "name": "PHP",
+        "level": "Mid",
+        "keywords": [
+          "Version control", "Colaboración", "Source code"
+        ]
+      },
+      {
+        "name": "MVC",
+        "level": "Mid",
+        "keywords": [
+          "Version control", "Colaboración", "Source code"
+        ]
+      },
+      {
         "name": "GitHub",
+        "level": "Advanced",
+        "keywords": [
+          "Version control", "Collaboration", "Source code", "Git"
+        ]
+      },
+      {
+        "name": "XAMPP",
         "level": "Advanced",
         "keywords": [
           "Version control", "Collaboration", "Source code", "Git"
@@ -214,7 +245,7 @@
         "description": "Quise utilizar tecnologías para practicar y crear un portafolio que demostrara mis conocimientos, y lo desplegué en Netlify.",
         "highlights": [
           "Autodidacta",
-          "Desarrollando"
+          "En desarrollo"
         ],
         "url": "https://portfoliocdavidv.netlify.app/"
       },
