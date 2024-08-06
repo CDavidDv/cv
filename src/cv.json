@@ -34,12 +34,23 @@
     },
     "work": [
       {
-        "name": "Aplicación Java",
+        "name": "Marquesitas",
+        "position": "Software Developer",
+        "url": "https://github.com/CDavidDv/marquesitas4",
+        "startDate": "2024-07-01",
+        "endDate": "2024-08-20",
+        "summary": "Un emprendimiento de venta de postres queria un programa para poder tener roles, administracion y sucursales me contacto para poder llevar a cabo el pprograma, fue desarrollado en laravel, vue3.",
+        "highlights": [
+          "Programa embebido"
+        ]
+      },
+      {
+        "name": "Aplicación Java de Laboratorios tlatlauquitepec",
         "position": "Software Developer",
         "url": "https://github.com/CDavidDv/laboratories",
         "startDate": "2023-12-01",
         "endDate": "2024-01-20",
-        "summary": "Una empresa dedicada a los laboratorios clínicos me solicitó un programa de escritorio, el cual desarrollé utilizando Java con NetBeans y una base de datos en SQLite, debido a los requisitos del proyecto.",
+        "summary": "Una empresa dedicada a los laboratorios clínicos me solicitó un programa de escritorio, el cual desarrollé utilizando Java con NetBeans y una base de datos en SQLite, debido a los requisitos del proyecto que no suele tener conexión a internet siempre.",
         "highlights": [
           "Programa embebido"
         ]
@@ -50,7 +61,7 @@
         "url": "https://figragas.com",
         "startDate": "2023-03-01",
         "endDate": null,
-        "summary": "Desarrollé la página web para esta empresa utilizando HTML, CSS (Bootstrap) y JavaScript vanilla. El diseño fue que fuera simple pero que mostrara claramente el precio e imágenes de la empresa y que fuera responsive.",
+        "summary": "Desarrollé la página web para esta empresa utilizando HTML, CSS (Bootstrap) y JavaScript vanilla. El diseño fue que fuera simple pero que mostrara claramente el precio e imágenes de la empresa y que fuera responsivo.",
         "highlights": [
           "Llamativo", "Intuitivo", "Responsive"
         ]
@@ -201,6 +212,13 @@
       },
       {
         "name": "React",
+        "level": "Entry level",
+        "keywords": [
+          "Web development", "Frontend", "JavaScript Library", "UI"
+        ]
+      },
+      {
+        "name": "Laravel",
         "level": "Entry level",
         "keywords": [
           "Web development", "Frontend", "JavaScript Library", "UI"
