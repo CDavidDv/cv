@@ -1,10 +1,11 @@
 {
     "basics": {
       "name": "Carlos David Ballesteros Torres",
-      "label": "Front-End developer autodidacta con solida experiencia en el area",
+      "label": "Software developer autodidacta con solida experiencia en el area",
       "image": "/me.webp",
       "email": "carlos.david1806@gmail.com",
-      "phone": "+52 7712660983",
+      "phone": "+52 7711831506",
+      "whatsapp": "7712660983",
       "url": "https://portfoliocdavidv.netlify.app",
       "summary": "Soy un entusiasta del desarrollo web con una experiencia en desarrollo de proyectos que han mejorado notablemente la eficiencia y control de procesos. Mi enfoque principal se concentra en la creación de sistemas, utilizando tecnologías como JavaScript, CSS con Tailwind, y HTML, un poco de PHP, junto con frameworks como Astro y aprendiendo React.",
       "location": {

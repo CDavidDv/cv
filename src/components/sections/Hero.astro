@@ -1,72 +1,100 @@
 ---
-import Section from '@/components/Section.astro'
-import Mail from '@/icons/Mail.astro'
-import Phone from '@/icons/Phone.astro'
-import LinkedIn from '@/icons/LinkedinIcon.astro'
-import Instagram from '@/icons/InstagramIcon.astro'
-import GitHub from '@/icons/GitHubIcon.astro'
-import WorldIcon from '@/icons/WorldIcon.astro'
- 
-import { basics } from '@cv'
+import Section from "@/components/Section.astro";
+import Mail from "@/icons/Mail.astro";
+import Phone from "@/icons/Phone.astro";
+import LinkedIn from "@/icons/LinkedinIcon.astro";
+import Instagram from "@/icons/InstagramIcon.astro";
+import GitHub from "@/icons/GitHubIcon.astro";
+import WorldIcon from "@/icons/WorldIcon.astro";
 
-const { name, label, location, image, summary, email, phone, profiles, url } = basics
-const { city, region } = location
+import { basics } from "@cv";
+import WhatsAppIcon from "@/icons/WhatsAppIcon.astro";
 
-const SOCIAL_ICONS: Record<string, any> ={
+const {
+    name,
+    label,
+    location,
+    image,
+    summary,
+    email,
+    phone,
+    profiles,
+    url,
+    whatsapp,
+} = basics;
+const { city, region } = location;
+
+const SOCIAL_ICONS: Record<string, any> = {
     GitHub,
     LinkedIn,
-    Instagram
-}
+    Instagram,
+};
 
-const linkedInfo = profiles.find(({ network }) => network === "LinkedIn")
-const linkedUrl = linkedInfo?.url
+const linkedInfo = profiles.find(({ network }) => network === "LinkedIn");
+const linkedUrl = linkedInfo?.url;
 
-const printInfo = [email, phone, linkedUrl, url].filter(Boolean).join(" • ")
+const llamadas = "Tel. "+phone
+const whats = "WhatsApp. "+whatsapp
+
+const printInfo = [email, llamadas, whats, linkedUrl, url]
+    .filter(Boolean)
+    .join(" • ");
 ---
-<Section >
+
+<Section>
     <div class="container">
         <div class="info">
             <h1>{name}</h1>
             <h2>{label}</h2>
             <span>
-                <WorldIcon /> {city}, {region}
+                <WorldIcon />
+                {city}, {region}
             </span>
             <footer class="print">
                 {printInfo}
-              </footer>
+            </footer>
             <footer class="no-print">
-                {email && (
-                    <a href={`mailto:${email}`}
-                        title={`Enviar un correo electronico a ${name} al correo ${email}`}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        >
-                        <Mail />
-                        </a>
-                )}
-                {phone && (
-                    <a href={`tel:${phone}`}
-                        title={`Llamar por teléfono a ${name} al número ${phone}`}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        <Phone />
-                    </a>
-                )}
-                {url && (
-                    <a href={`tel:${phone}`}
-                        title={`Llamar por teléfono a ${name} al número ${phone}`}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        <WorldIcon />
-                    </a>
-                )}
                 {
-                    profiles.map(({network, url, username}) =>{
-                        const Icon = SOCIAL_ICONS[network]
+                    email && (
+                        <a
+                            href={`mailto:${email}`}
+                            title={`Enviar un correo electronico a ${name} al correo ${email}`}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <Mail />
+                        </a>
+                    )
+                }
+                {
+                    phone && (
+                        <a
+                            href={`tel:${phone}`}
+                            title={`Llamar por teléfono a ${name} al número ${phone}`}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <Phone />
+                        </a>
+                    )
+                }
+                {
+                    url && (
+                        <a
+                            href={`tel:${phone}`}
+                            title={`Llamar por teléfono a ${name} al número ${phone}`}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <WorldIcon />
+                        </a>
+                    )
+                }
+                {
+                    profiles.map(({ network, url, username }) => {
+                        const Icon = SOCIAL_ICONS[network];
 
-                        return(
+                        return (
                             <a
                                 href={url}
                                 title={`Visitar el perfil de ${name} en ${network}`}
@@ -75,20 +103,31 @@ const printInfo = [email, phone, linkedUrl, url].filter(Boolean).join(" • ")
                             >
                                 <Icon />
                             </a>
-                        )
+                        );
                     })
                 }
-
+                {
+                    whats && (
+                        <a
+                            href={`https://api.whatsapp.com/send/?phone=52${whatsapp}`}
+                            title={`Llamar por teléfono a ${name} al número ${phone}`}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <WhatsAppIcon />
+                        </a>
+                    )
+                }
             </footer>
         </div>
         <figure>
-            <img src={image} alt={name}>
+            <img src={image} alt={name} />
         </figure>
     </div>
 </Section>
 
 <style>
-    .container{
+    .container {
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -96,25 +135,50 @@ const printInfo = [email, phone, linkedUrl, url].filter(Boolean).join(" • ")
         gap: 1rem;
     }
 
-    h1{
+    h1 {
         font-size: 2rem;
     }
 
-    h2{
+    h2 {
         color: #444;
         font-weight: 500;
         font-size: 1.1rem;
         text-wrap: balance;
     }
 
-    img{
+    img {
         aspect-ratio: 1/1;
         object-fit: cover;
         width: 140px;
         border-radius: 16px;
     }
 
-    span{
+    @media screen and (max-width: 500px) {
+        .container {
+            flex-direction: column-reverse;
+            align-items: center;
+            text-align: center;
+        }
+
+        img {
+            margin-right: 0px; 
+            margin-bottom: 16px ; 
+
+        }
+
+        .info {
+            padding-right: 0px !important;
+        }
+
+        footer {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+    }
+
+
+    span {
         color: #666;
         display: flex;
         align-items: center;
@@ -123,7 +187,7 @@ const printInfo = [email, phone, linkedUrl, url].filter(Boolean).join(" • ")
         letter-spacing: -0.05rem;
     }
 
-    .info{
+    .info {
         display: flex;
         flex-direction: column;
         gap: 0.5rem;
@@ -137,7 +201,7 @@ const printInfo = [email, phone, linkedUrl, url].filter(Boolean).join(" • ")
         gap: 6px;
         margin-top: 8px;
     }
-    footer a{
+    footer a {
         color: #777;
         display: inline-flex;
         align-items: center;
@@ -147,9 +211,9 @@ const printInfo = [email, phone, linkedUrl, url].filter(Boolean).join(" • ")
         height: 32px;
         width: 32px;
         border-radius: 6px;
-        transition: all .3s ease;
+        transition: all 0.3s ease;
     }
-    footer a:hover{
+    footer a:hover {
         background-color: #eee;
         border: 1px solid #ccc;
     }
