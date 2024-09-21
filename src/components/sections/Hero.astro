@@ -7,7 +7,7 @@ import Instagram from "@/icons/InstagramIcon.astro";
 import GitHub from "@/icons/GitHubIcon.astro";
 import WorldIcon from "@/icons/WorldIcon.astro";
 
-import { basics } from "@cv";
+import { basics } from "@/cv.json";
 import WhatsAppIcon from "@/icons/WhatsAppIcon.astro";
 
 const {
@@ -120,7 +120,7 @@ const printInfo = [email, llamadas, whats, linkedUrl, url]
                 }
             </footer>
         </div>
-        <figure>
+        <figure class="">
             <img src={image} alt={name} />
         </figure>
     </div>

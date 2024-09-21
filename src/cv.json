@@ -7,7 +7,7 @@
       "phone": "+52 7711831506",
       "whatsapp": "7712660983",
       "url": "https://portfoliocdavidv.netlify.app",
-      "summary": "Soy un entusiasta del desarrollo web con una experiencia en desarrollo de proyectos que han mejorado notablemente la eficiencia y control de procesos. Mi enfoque principal se concentra en la creación de sistemas, utilizando tecnologías como JavaScript, CSS con Tailwind, y HTML, un poco de PHP, junto con frameworks como Astro y aprendiendo React.",
+      "summary": "Soy un entusiasta del desarrollo web con experiencia en proyectos que han mejorado notablemente la eficiencia y el control de procesos. Mi enfoque principal se concentra en la creación de sistemas, utilizando tecnologías como JavaScript, CSS con Tailwind, HTML, un poco de PHP, junto con frameworks como Astro y aprendiendo React.",
       "location": {
         "address": "Mineral de la Reforma",
         "postalCode": "42185",
@@ -40,7 +40,7 @@
         "url": "https://github.com/CDavidDv/marquesitas4",
         "startDate": "2024-07-01",
         "endDate": "2024-08-20",
-        "summary": "Un emprendimiento de venta de postres queria un programa para poder tener roles, administracion y sucursales me contacto para poder llevar a cabo el pprograma, fue desarrollado en laravel, vue3.",
+        "summary": "Un emprendimiento de venta de postres quería un programa para gestionar roles, administración y sucursales. Participé en su desarrollo, que fue realizado en Laravel y Vue 3.",
         "highlights": [
           "Programa embebido"
         ]
@@ -51,7 +51,7 @@
         "url": "https://github.com/CDavidDv/laboratories",
         "startDate": "2023-12-01",
         "endDate": "2024-01-20",
-        "summary": "Una empresa dedicada a los laboratorios clínicos me solicitó un programa de escritorio, el cual desarrollé utilizando Java con NetBeans y una base de datos en SQLite, debido a los requisitos del proyecto que no suele tener conexión a internet siempre.",
+        "summary": "En una empresa dedicada a los laboratorios clínicos, se desarrolló un programa de escritorio en el que participé. Utilizamos Java con NetBeans y una base de datos en SQLite, debido a que el proyecto requería funcionar sin conexión a internet de forma continua.",
         "highlights": [
           "Programa embebido"
         ]
@@ -62,7 +62,7 @@
         "url": "https://figragas.com",
         "startDate": "2023-03-01",
         "endDate": null,
-        "summary": "Desarrollé la página web para esta empresa utilizando HTML, CSS (Bootstrap) y JavaScript vanilla. El diseño fue que fuera simple pero que mostrara claramente el precio e imágenes de la empresa y que fuera responsivo.",
+        "summary": "Se desarrollo la página web para esta empresa utilizando HTML, CSS (Bootstrap) y JavaScript vanilla. El objetivo del diseño era que fuera simple, pero que mostrara claramente los precios y las imágenes de la empresa, además de ser responsivo.",
         "highlights": [
           "Llamativo", "Intuitivo", "Responsive"
         ]
@@ -72,7 +72,7 @@
         "position": "Front-End Developer",
         "startDate": "2023-11-01",
         "endDate": null,
-        "summary": "Elaboré su página web utilizando HTML, CSS (TailwindCSS), JavaScript vanilla, con el framework Astro.build. El objetivo era crear un diseño empresarial y formal, utilizando sus colores institucionales.",
+        "summary": "Participé en el desarrollo de su página web utilizando HTML, CSS (TailwindCSS) y JavaScript vanilla, con el framework Astro.build. El objetivo era crear un diseño empresarial y formal, utilizando sus colores institucionales.",
         "highlights": [
           "Transformación digital", "Responsive", "Intuitivo"
         ]
@@ -82,7 +82,7 @@
         "position": "Full-Stack Developer",
         "startDate": "2022-01-01",
         "endDate": null,
-        "summary": "Desarrollé un emprendimiento con unos compañeros de la universidad enfocado en el desarrollo de páginas web, aplicaciones web y de escritorio. Para su creación, utilizamos Astro, HTML, CSS (Tailwind), y JavaScript.",
+        "summary": "Desarrollé un emprendimiento con unos compañeros de la universidad, enfocado en el desarrollo de páginas web, aplicaciones web y de escritorio. Para su creación, principalmente utilizamos Astro, HTML, CSS (Tailwind) y JavaScript.",
         "highlights": [
           "Emprendimiento", "Colaboración", "Diversas tecnologías"
         ]
@@ -92,7 +92,7 @@
         "position": "Full-Stack Developer",
         "startDate": "2021-01-01",
         "endDate": "2022-01-01",
-        "summary": "Desarrolle un sistema organizado y eficiente para la gestión de información de solicitudes, mediante la creación de una base de datos robusta y la implementación de una interfaz de usuario intuitiva y adaptativa. Esta solución se basa en cuatro pilares tecnológicos fundamentales. 1. Uso de MySQL para la Base de Datos. 2. Implementación del Patrón MVC (Modelo-Vista-Controlador). 3. Desarrollo de la Interfaz de Usuario con Tecnologías Web Modernas. 4. Pruebas y Depuración con XAMPP.",
+        "summary": "Desarrollé un sistema organizado y eficiente para la gestión de información de solicitudes, mediante la creación de una base de datos robusta y la implementación de una interfaz de usuario intuitiva y adaptativa. Esta solución se basa en cuatro pilares tecnológicos fundamentales: 1. Uso de MySQL para la base de datos. 2. Implementación del patrón MVC (Modelo-Vista-Controlador). 3. Desarrollo de la interfaz de usuario con tecnologías web modernas. 4. Pruebas y depuración con XAMPP.",
         "highlights": [
           "Emprendimiento", "Colaboración", "Diversas tecnologías"
         ]
@@ -224,7 +224,44 @@
         "keywords": [
           "Web development", "Frontend", "JavaScript Library", "UI"
         ]
+      },
+      {
+        "name": "Flutter",
+        "level": "Entry level",
+        "keywords": [
+          "Web development", "Frontend", "JavaScript Library", "UI"
+        ]
+      },
+      {
+        "name": "Visual Studio Code",
+        "level": "Entry level",
+        "keywords": [
+          "Web development", "Frontend", "JavaScript Library", "UI"
+        ]
+      },
+      {
+        "name": "Flutter",
+        "level": "Entry level",
+        "keywords": [
+          "Web development", "Frontend", "JavaScript Library", "UI"
+        ]
+      },
+      {
+        "name": "SQLite",
+        "level": "Entry level",
+        "keywords": [
+          "Web development", "Frontend", "JavaScript Library", "UI"
+        ]
+      },
+      {
+        "name": "",
+        "level": "Entry level",
+        "keywords": [
+          "Web development", "Frontend", "JavaScript Library", "UI"
+        ]
       }
+      
+      
     ],
     "languages": [
       {
@@ -261,7 +298,7 @@
       {
         "name": "Portfolio",
         "isActive": true,
-        "description": "Quise utilizar tecnologías para practicar y crear un portafolio que demostrara mis conocimientos, y lo desplegué en Netlify.",
+        "description": "Quise utilizar tecnologías para practicar y crear un portafolio que demostrara mis conocimientos, así que lo desplegué en Netlify.",
         "highlights": [
           "Autodidacta",
           "En desarrollo"
@@ -271,7 +308,7 @@
       {
         "name": "Connect 4",
         "isActive": true,
-        "description": "En mi proceso de aprendizaje de nuevas tecnologías, realicé un proyecto de Connect 4 utilizando los recursos de React y los 'hooks', específicamente useState y lo deploye en Netlify.",
+        "description": "En mi proceso de aprendizaje de nuevas tecnologías, realicé un proyecto de Connect 4 utilizando los recursos de React y los hooks, específicamente useState, y lo desplegué en Netlify.",
         "highlights": [
           "Autodidacta",
           "React"
@@ -281,7 +318,7 @@
       {
         "name": "Curriculum Vitae",
         "isActive": true,
-        "description": "Quise poner en practica un poco de mis conocimientos para mostrar e imprimir un cv, me inspire en el que mostro el creador midudev.",
+        "description": "Quise poner en práctica un poco de mis conocimientos para mostrar e imprimir un CV. Me inspiré en el que mostró el creador Midudev.",
         "highlights": [
           "Astro"
         ],
