@@ -35,6 +35,17 @@
     },
     "work": [
       {
+        "name": "Real de Plateros",
+        "position": "Software Developer",
+        "url": "",
+        "startDate": "2024-09-01",
+        "endDate": "2024-10-20",
+        "summary": "Una empresa dedicada a la producción de pastes en Hidalgo quería implementar un sistema de punto de venta (POS) que les permitiera gestionar ventas, impresión de tickets desde una página web y administración del inventario y empleados. El sistema se diseñó para operar en un servidor local, permitiendo la comunicación directa con impresoras y asegurando la disponibilidad continua del sistema sin depender de la conexión a Internet. La solución se desarrolló usando Laravel para el backend y Vue 3 para la interfaz de usuario.",
+        "highlights": [
+          ""
+        ]
+      },
+      {
         "name": "Marquesitas",
         "position": "Software Developer",
         "url": "https://github.com/CDavidDv/marquesitas4",
@@ -61,7 +72,7 @@
         "position": "Full-Stack Developer",
         "url": "https://figragas.com",
         "startDate": "2023-03-01",
-        "endDate": null,
+        "endDate": "2024-03-01",
         "summary": "Se desarrollo la página web para esta empresa utilizando HTML, CSS (Bootstrap) y JavaScript vanilla. El objetivo del diseño era que fuera simple, pero que mostrara claramente los precios y las imágenes de la empresa, además de ser responsivo.",
         "highlights": [
           "Llamativo", "Intuitivo", "Responsive"
