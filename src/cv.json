@@ -4,10 +4,9 @@
       "label": "Software developer autodidacta con solida experiencia en el area",
       "image": "/me.webp",
       "email": "carlos.david1806@gmail.com",
-      "phone": "+52 7711831506",
-      "whatsapp": "7712660983",
-      "url": "https://portfoliocdavidv.netlify.app",
-      "summary": "Soy un entusiasta del desarrollo web con experiencia en proyectos que han mejorado notablemente la eficiencia y el control de procesos. Mi enfoque principal se concentra en la creación de sistemas, utilizando tecnologías como JavaScript, CSS con Tailwind, HTML, un poco de PHP, junto con frameworks como Astro y aprendiendo React.",
+      "phone": "7711831506",
+      "url": "https://porfoliocdavidv2.netlify.app",
+      "summary": "Soy un desarrollador web apasionado, con experiencia en la creación de sistemas que optimizan la eficiencia y el control de procesos en distintos sectores. Me especializo en el desarrollo de soluciones tecnológicas utilizando tecnologías como JavaScript, HTML, CSS con Tailwind, y PHP con Laravel, además de frameworks como Astro y Vue 3, en el cual continúo especializándome.",
       "location": {
         "address": "Mineral de la Reforma",
         "postalCode": "42185",
@@ -35,12 +34,23 @@
     },
     "work": [
       {
+        "name": "Monkits education",
+        "position": "Software Developer",
+        "url": "",
+        "startDate": "2025-03-03",
+        "endDate": "2026-03-03",
+        "summary": "Colaboré en el desarrollo de una aplicación móvil para una empresa de educación en línea, utilizando Flutter para el desarrollo multiplataforma, y mantenimineto de aplicación nativa en android studio. La aplicación se diseñó para ofrecer una experiencia de usuario fluida y atractiva, permitiendo a los estudiantes acceder a un catalogo, materiales educativos y realizar un seguimiento de su progreso de manera eficiente. Además, experiencia en el area de eléctronica y programación de microcontroladores, lo que me permitió contribuir a la integración de hardware en la aplicación, mejorando la interactividad y funcionalidad del producto final.",
+        "highlights": [
+          ""
+        ]
+      },
+      {
         "name": "Real de Plateros",
         "position": "Software Developer",
         "url": "",
         "startDate": "2024-09-01",
-        "endDate": "2024-10-20",
-        "summary": "Una empresa dedicada a la producción de pastes en Hidalgo quería implementar un sistema de punto de venta (POS) que les permitiera gestionar ventas, impresión de tickets desde una página web y administración del inventario y empleados. El sistema se diseñó para operar en un servidor local, permitiendo la comunicación directa con impresoras y asegurando la disponibilidad continua del sistema sin depender de la conexión a Internet. La solución se desarrolló usando Laravel para el backend y Vue 3 para la interfaz de usuario.",
+        "endDate": "2025-10-20",
+        "summary": "Colaboré en la implementación de un sistema de punto de venta (POS) para una empresa dedicada a la producción de pastes en Hidalgo. La solución permite gestionar ventas, imprimir tickets desde una página web y administrar el inventario y los empleados. Se diseñó para operar en un servidor local, garantizando la comunicación directa con impresoras y la disponibilidad continua del sistema sin depender de la conexión a Internet. El desarrollo se realizó con Laravel en el backend y Vue 3 en la interfaz de usuario.",
         "highlights": [
           ""
         ]
@@ -51,7 +61,7 @@
         "url": "https://github.com/CDavidDv/marquesitas4",
         "startDate": "2024-07-01",
         "endDate": "2024-08-20",
-        "summary": "Un emprendimiento de venta de postres quería un programa para gestionar roles, administración y sucursales. Participé en su desarrollo, que fue realizado en Laravel y Vue 3.",
+        "summary": "Desarrollé un sistema de gestión para un emprendimiento de venta de postres, permitiendo la administración de roles y sucursales. La solución fue implementada utilizando Laravel y Vue 3.",
         "highlights": [
           "Programa embebido"
         ]
@@ -62,7 +72,7 @@
         "url": "https://github.com/CDavidDv/laboratories",
         "startDate": "2023-12-01",
         "endDate": "2024-01-20",
-        "summary": "En una empresa dedicada a los laboratorios clínicos, se desarrolló un programa de escritorio en el que participé. Utilizamos Java con NetBeans y una base de datos en SQLite, debido a que el proyecto requería funcionar sin conexión a internet de forma continua.",
+        "summary": "Participé en el desarrollo de una aplicación de escritorio para una empresa de laboratorios clínicos. La solución fue diseñada para operar sin conexión a Internet de manera continua y fue desarrollada en Java utilizando NetBeans, con SQLite como base de datos.",
         "highlights": [
           "Programa embebido"
         ]
@@ -73,7 +83,7 @@
         "url": "https://figragas.com",
         "startDate": "2023-03-01",
         "endDate": "2024-03-01",
-        "summary": "Se desarrollo la página web para esta empresa utilizando HTML, CSS (Bootstrap) y JavaScript vanilla. El objetivo del diseño era que fuera simple, pero que mostrara claramente los precios y las imágenes de la empresa, además de ser responsivo.",
+        "summary": "Desarrollé la página web de esta empresa utilizando HTML, CSS (Bootstrap) y JavaScript vanilla. El diseño se enfocó en ser simple pero funcional, destacando los precios e imágenes de la empresa, además de garantizar una experiencia responsiva.",
         "highlights": [
           "Llamativo", "Intuitivo", "Responsive"
         ]
@@ -83,19 +93,9 @@
         "position": "Front-End Developer",
         "startDate": "2023-11-01",
         "endDate": null,
-        "summary": "Participé en el desarrollo de su página web utilizando HTML, CSS (TailwindCSS) y JavaScript vanilla, con el framework Astro.build. El objetivo era crear un diseño empresarial y formal, utilizando sus colores institucionales.",
+        "summary": "Participé en el desarrollo de su página web, utilizando HTML, CSS (Tailwind CSS) y JavaScript vanilla con el framework Astro.build. El diseño fue pensado para transmitir una imagen empresarial y formal, respetando la identidad visual de la empresa.",
         "highlights": [
           "Transformación digital", "Responsive", "Intuitivo"
-        ]
-      },
-      {
-        "name": "MACE",
-        "position": "Full-Stack Developer",
-        "startDate": "2022-01-01",
-        "endDate": null,
-        "summary": "Desarrollé un emprendimiento con unos compañeros de la universidad, enfocado en el desarrollo de páginas web, aplicaciones web y de escritorio. Para su creación, principalmente utilizamos Astro, HTML, CSS (Tailwind) y JavaScript.",
-        "highlights": [
-          "Emprendimiento", "Colaboración", "Diversas tecnologías"
         ]
       },
       {
@@ -103,7 +103,7 @@
         "position": "Full-Stack Developer",
         "startDate": "2021-01-01",
         "endDate": "2022-01-01",
-        "summary": "Desarrollé un sistema organizado y eficiente para la gestión de información de solicitudes, mediante la creación de una base de datos robusta y la implementación de una interfaz de usuario intuitiva y adaptativa. Esta solución se basa en cuatro pilares tecnológicos fundamentales: 1. Uso de MySQL para la base de datos. 2. Implementación del patrón MVC (Modelo-Vista-Controlador). 3. Desarrollo de la interfaz de usuario con tecnologías web modernas. 4. Pruebas y depuración con XAMPP.",
+        "summary": "Desarrollé un sistema eficiente para la gestión de solicitudes, implementando una base de datos robusta y una interfaz de usuario intuitiva y adaptativa. El sistema se basó en cuatro pilares tecnológicos fundamentales: Uso de MySQL para la base de datos. Implementación del patrón MVC (Modelo-Vista-Controlador). Desarrollo de la interfaz de usuario con tecnologías web modernas. Pruebas y depuración con XAMPP.",
         "highlights": [
           "Emprendimiento", "Colaboración", "Diversas tecnologías"
         ]
@@ -337,3 +337,5 @@
       }
     ]
   }
+
+  

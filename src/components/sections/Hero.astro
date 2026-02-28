@@ -34,9 +34,9 @@ const linkedInfo = profiles.find(({ network }) => network === "LinkedIn");
 const linkedUrl = linkedInfo?.url;
 
 const llamadas = "Tel. "+phone
-const whats = "WhatsApp. "+whatsapp
+// const whats = "WhatsApp. "+whatsapp
 
-const printInfo = [email, llamadas, whats, linkedUrl, url]
+const printInfo = [email, llamadas, linkedUrl, url]
     .filter(Boolean)
     .join(" • ");
 ---
@@ -106,7 +106,7 @@ const printInfo = [email, llamadas, whats, linkedUrl, url]
                         );
                     })
                 }
-                {
+                <!-- {
                     whats && (
                         <a
                             href={`https://api.whatsapp.com/send/?phone=52${whatsapp}`}
@@ -117,7 +117,7 @@ const printInfo = [email, llamadas, whats, linkedUrl, url]
                             <WhatsAppIcon />
                         </a>
                     )
-                }
+                } -->
             </footer>
         </div>
         <figure class="">
