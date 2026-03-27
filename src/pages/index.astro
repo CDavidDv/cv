@@ -37,14 +37,22 @@ import KeyboardManager from '@/components/KeyboardManager.astro'
 
 <style>
 	main {
-		padding: 4rem;
+		padding: 2rem 1.5rem;
 		margin: auto;
 		width: 100%;
+		max-width: 900px;
 	}
 
 	@media (width <= 700px) {
 		main {
-		padding: 2rem;
+		padding: 1.5rem 1rem;
+		}
+	}
+
+	@media print {
+		main {
+			padding: 0.5rem;
+			margin: 0;
 		}
 	}
 </style>

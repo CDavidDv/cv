@@ -29,28 +29,45 @@ import { education } from '@/cv.json'
 </Section>
 
 <style>
+    article {
+        margin-bottom: 16px;
+    }
+
     article h3{
         font-weight: 500;
         color: #111;
+        font-size: 0.95rem;
+        margin-bottom: 2px;
     }
 
     article h4{
         font-weight: 400;
         color: #222;
+        font-size: 0.85rem;
     }
+
     header{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        align-items: baseline;
+        margin-bottom: 4px;
     }
+
     time{
         color: #555;
-        font-size: 0.85rem;
+        font-size: 0.8rem;
+        white-space: nowrap;
     }
 
     footer{
         display: flex;
         flex-direction: row;
-        
+    }
+
+    @media print {
+        article {
+            margin-bottom: 8px;
+        }
     }
 </style>

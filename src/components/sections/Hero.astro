@@ -135,14 +135,25 @@ const printInfo = [email, llamadas, linkedUrl, url]
     }
 
     h1 {
-        font-size: 2rem;
+        font-size: 1.8rem;
+        margin-bottom: 4px;
     }
 
     h2 {
         color: #444;
         font-weight: 500;
-        font-size: 1.1rem;
+        font-size: 1rem;
         text-wrap: balance;
+    }
+
+    @media print {
+        h1 {
+            font-size: 1.5rem;
+        }
+
+        h2 {
+            font-size: 0.9rem;
+        }
     }
 
     img {
