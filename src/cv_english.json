@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Carlos David Ballesteros Torres",
-    "label": "Self-taught software developer with solid experience",
+    "label": "Self-taught software developer who adapts technologies based on problem requirements",
     "image": "/me.webp",
     "email": "carlos.david1806@gmail.com",
     "phone": "+52 7711831506",
     "url": "https://portfoliocdavidv2.netlify.app",
-    "summary": "I'm a passionate web developer with experience creating systems that optimize efficiency and process control across different sectors. I specialize in developing technological solutions using JavaScript, HTML, CSS with Tailwind, and PHP with Laravel, along with frameworks like Astro and Vue 3, which I continue to master.",
+    "summary": "I'm a passionate web developer with experience creating systems that optimize efficiency and process control across different sectors. I specialize in analyzing problems and selecting the best technology to solve them. I work with JavaScript, HTML, CSS (Tailwind), PHP (Laravel), Astro, Vue 3, and other technologies as each project requires.",
     "location": {
       "address": "Mineral de la Reforma",
       "postalCode": "42185",
@@ -319,27 +319,27 @@
     {
       "name": "Portfolio",
       "isActive": true,
-      "description": "I wanted to use technologies to practice and create a portfolio showcasing my skills, and I deployed it on Netlify.",
+      "description": "I used Astro, HTML, CSS (Tailwind), and JavaScript to create a portfolio showcasing my skills. Deployed on Netlify as a self-taught project.",
       "highlights": [
-        "Self-taught", "In progress"
+        "Astro", "Tailwind", "JavaScript"
       ],
       "url": "https://portfoliocdavidv2.netlify.app/"
     },
     {
       "name": "Connect 4",
       "isActive": true,
-      "description": "In my learning process of new technologies, I completed a Connect 4 project using React resources and hooks, specifically useState, and deployed it on Netlify.",
+      "description": "I developed a Connect 4 game using React, hooks (useState), and JavaScript. Learned to manage application state and component lifecycle. Deployed on Netlify.",
       "highlights": [
-        "Self-taught", "React"
+        "React", "JavaScript", "useState"
       ],
       "url": "https://wonderful-lolly-448912.netlify.app/"
     },
     {
       "name": "Curriculum Vitae",
       "isActive": true,
-      "description": "I wanted to put my knowledge into practice to display and print a CV, inspired by the one shown by the creator Midudev.",
+      "description": "I developed this CV using Astro with TypeScript, HTML, CSS (Tailwind), and JavaScript. Implemented a data-driven architecture with JSON for easy content updates.",
       "highlights": [
-        "Astro"
+        "Astro", "TypeScript", "JSON Resume"
       ],
       "url": "https://cv-carlos-david-bt.netlify.app/"
     }

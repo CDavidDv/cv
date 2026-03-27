@@ -1,12 +1,12 @@
 {
     "basics": {
       "name": "Carlos David Ballesteros Torres",
-      "label": "Desarrollador de software autodidacta con sólida experiencia",
+      "label": "Desarrollador de software autodidacta que se adapta a las tecnologías según los problemas",
       "image": "/me.webp",
       "email": "carlos.david1806@gmail.com",
       "phone": "7711831506",
       "url": "https://porfoliocdavidv2.netlify.app",
-      "summary": "Soy un desarrollador web apasionado con experiencia en la creación de sistemas que optimizan la eficiencia y el control de procesos en distintos sectores. Me especializo en desarrollar soluciones tecnológicas utilizando JavaScript, HTML, CSS con Tailwind y PHP con Laravel, además de frameworks como Astro y Vue 3, en los cuales continúo especializándome.",
+      "summary": "Soy un desarrollador web apasionado con experiencia en la creación de sistemas que optimizan la eficiencia y el control de procesos en distintos sectores. Me especializo en desarrollar soluciones tecnológicas evaluando los problemas y eligiendo la mejor tecnología para resolverlos. Trabajo con JavaScript, HTML, CSS (Tailwind), PHP (Laravel), Astro, Vue 3 y otras tecnologías según lo requiera cada proyecto.",
       "location": {
         "address": "Mineral de la Reforma",
         "postalCode": "42185",
@@ -326,29 +326,27 @@
       {
         "name": "Portfolio",
         "isActive": true,
-        "description": "Quise utilizar tecnologías para practicar y crear un portafolio que demostrara mis conocimientos, así que lo desplegué en Netlify.",
+        "description": "Utilicé Astro, HTML, CSS (Tailwind) y JavaScript para crear un portafolio que demostrara mis conocimientos. Lo desplegué en Netlify como proyecto autodidacta.",
         "highlights": [
-          "Autodidacta",
-          "En desarrollo"
+          "Astro", "Tailwind", "JavaScript"
         ],
         "url": "https://portfoliocdavidv.netlify.app/"
       },
       {
         "name": "Connect 4",
         "isActive": true,
-        "description": "En mi proceso de aprendizaje de nuevas tecnologías, realicé un proyecto de Connect 4 utilizando los recursos de React y los hooks, específicamente useState, y lo desplegué en Netlify.",
+        "description": "Desarrollé un juego Connect 4 utilizando React, hooks (useState) y JavaScript. Aprendí a manejar estado de aplicación y ciclo de vida de componentes. Desplegado en Netlify.",
         "highlights": [
-          "Autodidacta",
-          "React"
+          "React", "JavaScript", "useState"
         ],
         "url": "https://wonderful-lolly-448912.netlify.app/"
       },
       {
         "name": "Curriculum Vitae",
         "isActive": true,
-        "description": "Quise poner en práctica un poco de mis conocimientos para mostrar e imprimir un CV. Me inspiré en el que mostró el creador Midudev.",
+        "description": "Desarrollé este CV usando Astro con TypeScript, HTML, CSS (Tailwind) y JavaScript. Implementé una arquitectura basada en datos con JSON para facilitar actualizaciones de contenido.",
         "highlights": [
-          "Astro"
+          "Astro", "TypeScript", "JSON Resume"
         ],
         "url": "https://cv-carlos-david-bt.netlify.app/"
       }
