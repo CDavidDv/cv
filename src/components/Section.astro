@@ -8,25 +8,32 @@ const { tittle } = Astro.props
 
 <style>
     section {
-    margin: 0 auto 32px;
+    max-width: 700px;
+    margin: 0 auto 48px;
   }
 
   h2 {
-    margin-bottom: 6px;
+    margin-bottom: 8px;
     font-weight: 700;
-    line-height: 1.4;
-    font-size: 1.2rem;
+    line-height: 1.5;
+    font-size: 1.5rem;
   }
 
   @media (width <= 700px) {
     section {
-      margin-bottom: 24px;
+      margin-bottom: 38px;
     }
   }
 
   @media print {
     section {
-      margin-bottom: 16px;
+      max-width: 100%;
+      margin-bottom: 20px;
+    }
+
+    h2 {
+      font-size: 1.2rem;
+      margin-bottom: 6px;
     }
   }
 </style>
