@@ -1,25 +1,20 @@
 {
   "basics": {
     "name": "Carlos David Ballesteros Torres",
-    "label": "Self-taught software developer who adapts technologies based on problem requirements",
+    "label": "Full-Stack Developer | Laravel · Vue 3 · JavaScript",
     "image": "/me.webp",
     "email": "carlos.david1806@gmail.com",
     "phone": "+52 7711831506",
-    "url": "https://portfoliocdavidv2.netlify.app",
-    "summary": "I'm a passionate web developer with experience creating systems that optimize efficiency and process control across different sectors. I specialize in analyzing problems and selecting the best technology to solve them. I work with JavaScript, HTML, CSS (Tailwind), PHP (Laravel), Astro, Vue 3, and other technologies as each project requires.",
+    "url": "https://cv-carlos-david-bt.netlify.app/",
+    "summary": "Web developer with 4+ years of experience building custom systems across retail, healthcare, education, and government sectors. Specialized in Full-Stack development with Laravel, Vue 3, and JavaScript. Computer Science graduate (UAEH, GPA 8.49/10). I adapt to whichever technology best solves the problem at hand.",
     "location": {
       "address": "Mineral de la Reforma",
       "postalCode": "42185",
       "city": "Hidalgo",
-      "countryCode": "ES",
+      "countryCode": "MX",
       "region": "Mexico"
     },
     "profiles": [
-      {
-        "network": "Instagram",
-        "username": "david.1806",
-        "url": "https://www.instagram.com/david.1806/"
-      },
       {
         "network": "GitHub",
         "username": "CDavidDv",
@@ -39,73 +34,63 @@
       "url": "",
       "startDate": "2025-03-03",
       "endDate": "2026-03-03",
-      "summary": "I collaborated in the development of a mobile application for an educational robotics company using Flutter for cross-platform development and maintenance of native Android applications. The application was designed to provide a smooth and attractive user experience, allowing students to access a catalog, educational materials, and robot control via Bluetooth. Additionally, I gained experience in electronics and microcontroller programming, which allowed me to contribute to hardware integration in the application, improving interactivity and functionality.",
+      "summary": "Developed and maintained a cross-platform mobile application for an educational robotics company using Flutter and Android Studio. Implemented Bluetooth robot control, product catalog, and educational materials. Integrated microcontroller programming to improve hardware-software interactivity.",
       "highlights": [
-        "Mobile Application", "Flutter", "Educational Robotics"
+        "Flutter", "Android Studio", "Bluetooth", "Microcontrollers"
       ]
     },
     {
       "name": "Real de Plateros",
-      "position": "Software Developer",
+      "position": "Full-Stack Developer",
       "url": "",
       "startDate": "2024-09-01",
       "endDate": "2025-10-20",
-      "summary": "I collaborated in the implementation of a Point of Sale (POS) system for a company dedicated to pastry production in Hidalgo. The solution enables sales management, ticket printing from a web page, and inventory and employee administration. It was designed to operate on a local server, ensuring direct communication with printers and continuous system availability without depending on Internet connection. Development was done with Laravel in the backend and Vue 3 in the user interface.",
+      "summary": "Implemented a Point of Sale (POS) system for a pastry production company in Hidalgo. The system handles sales, ticket printing, inventory, and employee management. Designed to run on a local server for continuous availability without Internet dependency.",
       "highlights": [
-        "POS System", "Laravel", "Vue 3"
+        "POS System", "Laravel", "Vue 3", "Local Server"
       ]
     },
     {
       "name": "Marquesitas",
-      "position": "Software Developer",
+      "position": "Full-Stack Developer (Freelance)",
       "url": "https://github.com/CDavidDv/marquesitas4",
       "startDate": "2024-07-01",
       "endDate": "2024-08-20",
-      "summary": "I developed a management system for a dessert sales venture with role and branch administration. The solution was implemented with Laravel and Vue 3.",
+      "summary": "Built a management system for a dessert sales business with role-based access control and multi-branch administration. Implemented with Laravel and Vue 3.",
       "highlights": [
-        "Management System", "Multiple Branches"
-      ]
-    },
-    {
-      "name": "Java Application - Tlatlauquitepec Laboratories",
-      "position": "Software Developer",
-      "url": "https://github.com/CDavidDv/laboratories",
-      "startDate": "2023-12-01",
-      "endDate": "2024-01-20",
-      "summary": "I participated in the development of a desktop application for a clinical laboratory company. The solution was designed to operate without Internet connection continuously, developed in Java using NetBeans with SQLite as the database.",
-      "highlights": [
-        "Desktop Application"
-      ]
-    },
-    {
-      "name": "Figra-Gas",
-      "position": "Full-Stack Developer",
-      "url": "https://figragas.com",
-      "startDate": "2023-03-01",
-      "endDate": "2024-03-01",
-      "summary": "I developed the website for this company using HTML, CSS (Bootstrap), and vanilla JavaScript. The design was simple but functional, highlighting the company's prices and images with a responsive experience.",
-      "highlights": [
-        "Eye-catching", "Intuitive", "Responsive"
+        "Laravel", "Vue 3", "Multi-branch", "Role-based access"
       ]
     },
     {
       "name": "Tlatlauquitepec Laboratories",
-      "position": "Front-End Developer",
+      "position": "Full-Stack Developer (Freelance)",
+      "url": "https://github.com/CDavidDv/laboratories",
       "startDate": "2023-11-01",
-      "endDate": null,
-      "summary": "I participated in the development of their website using HTML, CSS (Tailwind CSS), vanilla JavaScript, and the Astro framework. The design conveys a corporate and formal image while respecting the company's visual identity.",
+      "endDate": "2024-01-20",
+      "summary": "Built corporate website using Astro, Tailwind CSS, and vanilla JavaScript. Developed an offline desktop application in Java (NetBeans + SQLite) for internal management of a clinical laboratory.",
       "highlights": [
-        "Digital Transformation", "Responsive", "Intuitive"
+        "Astro", "Tailwind", "Java", "SQLite", "Offline app"
+      ]
+    },
+    {
+      "name": "Figra-Gas",
+      "position": "Full-Stack Developer (Freelance)",
+      "url": "https://figragas.com",
+      "startDate": "2023-03-01",
+      "endDate": "2024-03-01",
+      "summary": "Developed a responsive corporate website for a gas distribution company. Simple, functional design built with HTML, CSS (Bootstrap), and vanilla JavaScript.",
+      "highlights": [
+        "HTML", "CSS", "Bootstrap", "JavaScript", "Responsive"
       ]
     },
     {
       "name": "MACE",
-      "position": "Full-Stack Developer",
+      "position": "Full-Stack Developer · Co-founder",
       "startDate": "2022-01-01",
       "endDate": null,
-      "summary": "I developed a venture with university colleagues focused on developing websites, web applications, and desktop applications. We primarily used Astro, HTML, CSS (Tailwind), and JavaScript.",
+      "summary": "Co-founded a software development venture with university classmates. Built websites, web applications, and desktop apps for local clients using Astro, HTML, CSS (Tailwind), and JavaScript.",
       "highlights": [
-        "Entrepreneurship", "Collaboration", "Multiple Technologies"
+        "Entrepreneurship", "Astro", "Tailwind", "JavaScript"
       ]
     },
     {
@@ -113,22 +98,9 @@
       "position": "Full-Stack Developer",
       "startDate": "2021-01-01",
       "endDate": "2022-01-01",
-      "summary": "I developed an efficient system for managing requests with a robust database and intuitive, adaptive user interface. The system was based on: MySQL for the database, MVC pattern (Model-View-Controller), interface development with modern web technologies, and testing with XAMPP.",
+      "summary": "Built a request management system using MVC architecture, MySQL database, and an adaptive web interface. Development and testing environment using XAMPP.",
       "highlights": [
-        "Management System", "Robust Database", "Adaptive Interface"
-      ]
-    }
-  ],
-  "volunteer": [
-    {
-      "organization": "Organization",
-      "position": "Volunteer",
-      "url": "https://organization.com/",
-      "startDate": "2012-01-01",
-      "endDate": "2013-01-01",
-      "summary": "Description…",
-      "highlights": [
-        "Awarded 'Volunteer of the Month'"
+        "MySQL", "MVC", "PHP", "Management System"
       ]
     }
   ],
@@ -142,147 +114,80 @@
       "endDate": "2023-06-01",
       "score": "8.49",
       "courses": [
-        "JavaScript - Código Facilito"
+        "JavaScript — Código Facilito"
       ]
-    }
-  ],
-  "awards": [
-    {
-      "title": "Award",
-      "date": "2014-11-01",
-      "awarder": "Company",
-      "summary": "There is no spoon."
-    }
-  ],
-  "certificates": [
-    {
-      "name": "Certificate",
-      "date": "2021-11-07",
-      "issuer": "Company",
-      "url": "https://certificate.com"
-    }
-  ],
-  "publications": [
-    {
-      "name": "Publication",
-      "publisher": "Company",
-      "releaseDate": "2014-10-01",
-      "url": "https://publication.com",
-      "summary": "Description…"
     }
   ],
   "skills": [
     {
+      "name": "JavaScript",
+      "level": "Advanced",
+      "keywords": ["Web development", "Frontend", "Backend", "Fullstack"]
+    },
+    {
       "name": "HTML",
       "level": "Advanced",
-      "keywords": [
-        "Web development", "Frontend"
-      ]
+      "keywords": ["Web development", "Frontend"]
     },
     {
       "name": "CSS",
       "level": "Advanced",
-      "keywords": [
-        "Web development", "Frontend", "Responsive Design"
-      ]
-    },
-    {
-      "name": "JavaScript",
-      "level": "Advanced",
-      "keywords": [
-        "Web development", "Frontend", "Backend", "Fullstack"
-      ]
+      "keywords": ["Web development", "Frontend", "Responsive Design"]
     },
     {
       "name": "Tailwind",
-      "level": "Intermediate",
-      "keywords": [
-        "Web development", "Frontend", "CSS Framework", "Responsive Design"
-      ]
-    },
-    {
-      "name": "MySQL",
-      "level": "Intermediate",
-      "keywords": [
-        "Databases", "SQL", "Backend"
-      ]
-    },
-    {
-      "name": "Git",
-      "level": "Intermediate",
-      "keywords": [
-        "Version control", "Collaboration", "Source code"
-      ]
-    },
-    {
-      "name": "PHP",
-      "level": "Intermediate",
-      "keywords": [
-        "Web development", "Backend", "Server-side"
-      ]
-    },
-    {
-      "name": "GitHub",
       "level": "Advanced",
-      "keywords": [
-        "Version control", "Collaboration", "Source code", "Git"
-      ]
-    },
-    {
-      "name": "React",
-      "level": "Beginner",
-      "keywords": [
-        "Web development", "Frontend", "JavaScript Library", "UI"
-      ]
-    },
-    {
-      "name": "Laravel",
-      "level": "Intermediate",
-      "keywords": [
-        "Web development", "Backend", "PHP Framework"
-      ]
-    },
-    {
-      "name": "Vue 3",
-      "level": "Intermediate",
-      "keywords": [
-        "Web development", "Frontend", "JavaScript Framework", "UI"
-      ]
-    },
-    {
-      "name": "Flutter",
-      "level": "Beginner",
-      "keywords": [
-        "Mobile development", "Cross-platform", "Android", "iOS"
-      ]
-    },
-    {
-      "name": "Visual Studio Code",
-      "level": "Advanced",
-      "keywords": [
-        "IDE", "Development", "Code Editor"
-      ]
-    },
-    {
-      "name": "SQLite",
-      "level": "Intermediate",
-      "keywords": [
-        "Database", "SQL", "Backend"
-      ]
-    },
-    {
-      "name": "NetBeans",
-      "level": "Intermediate",
-      "keywords": [
-        "IDE", "Java", "Desktop Development"
-      ]
+      "keywords": ["Web development", "Frontend", "CSS Framework", "Responsive Design"]
     },
     {
       "name": "Astro",
       "level": "Advanced",
-      "keywords": [
-        "Framework", "Web development", "Static site generation"
-      ]
+      "keywords": ["Framework", "Web development", "Static site generation"]
+    },
+    {
+      "name": "Vue 3",
+      "level": "Intermediate",
+      "keywords": ["Web development", "Frontend", "JavaScript Framework", "UI"]
+    },
+    {
+      "name": "Laravel",
+      "level": "Intermediate",
+      "keywords": ["Web development", "Backend", "PHP Framework"]
+    },
+    {
+      "name": "PHP",
+      "level": "Intermediate",
+      "keywords": ["Web development", "Backend", "Server-side"]
+    },
+    {
+      "name": "MySQL",
+      "level": "Intermediate",
+      "keywords": ["Databases", "SQL", "Backend"]
+    },
+    {
+      "name": "SQLite",
+      "level": "Intermediate",
+      "keywords": ["Database", "SQL", "Backend"]
+    },
+    {
+      "name": "Git",
+      "level": "Intermediate",
+      "keywords": ["Version control", "Collaboration", "Source code"]
+    },
+    {
+      "name": "GitHub",
+      "level": "Intermediate",
+      "keywords": ["Version control", "Collaboration", "Source code"]
+    },
+    {
+      "name": "Flutter",
+      "level": "Beginner",
+      "keywords": ["Mobile development", "Cross-platform", "Android", "iOS"]
+    },
+    {
+      "name": "React",
+      "level": "Beginner",
+      "keywords": ["Web development", "Frontend", "JavaScript Library", "UI"]
     }
   ],
   "languages": [
@@ -295,52 +200,26 @@
       "fluency": "Intermediate"
     }
   ],
-  "interests": [
-    {
-      "name": "Technology",
-      "keywords": [
-        "Up to date", "Any topic"
-      ]
-    },
-    {
-      "name": "Video Games",
-      "keywords": [
-        "Up to date", "Any topic"
-      ]
-    }
-  ],
-  "references": [
-    {
-      "name": "Jane Doe",
-      "reference": "Reference…"
-    }
-  ],
   "projects": [
     {
       "name": "Portfolio",
       "isActive": true,
-      "description": "I used Astro, HTML, CSS (Tailwind), and JavaScript to create a portfolio showcasing my skills. Deployed on Netlify as a self-taught project.",
-      "highlights": [
-        "Astro", "Tailwind", "JavaScript"
-      ],
+      "description": "Personal portfolio built with Astro, HTML, CSS (Tailwind), and JavaScript. Deployed on Netlify.",
+      "highlights": ["Astro", "Tailwind", "JavaScript"],
       "url": "https://portfoliocdavidv2.netlify.app/"
     },
     {
       "name": "Connect 4",
       "isActive": true,
-      "description": "I developed a Connect 4 game using React, hooks (useState), and JavaScript. Learned to manage application state and component lifecycle. Deployed on Netlify.",
-      "highlights": [
-        "React", "JavaScript", "useState"
-      ],
+      "description": "Connect 4 game built with React and hooks (useState). Practiced state management and component lifecycle. Deployed on Netlify.",
+      "highlights": ["React", "JavaScript", "useState"],
       "url": "https://wonderful-lolly-448912.netlify.app/"
     },
     {
       "name": "Curriculum Vitae",
       "isActive": true,
-      "description": "I developed this CV using Astro with TypeScript, HTML, CSS (Tailwind), and JavaScript. Implemented a data-driven architecture with JSON for easy content updates.",
-      "highlights": [
-        "Astro", "TypeScript", "JSON Resume"
-      ],
+      "description": "CV built with Astro, TypeScript, HTML, and CSS (Tailwind). Data-driven architecture using JSON Resume for easy content updates.",
+      "highlights": ["Astro", "TypeScript", "JSON Resume"],
       "url": "https://cv-carlos-david-bt.netlify.app/"
     }
   ]
